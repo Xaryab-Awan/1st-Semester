@@ -1,0 +1,10 @@
+The a element is present 1 times
+The b element is present 1 times
+The e element is present 3 times
+The h element is present 1 times
+The i element is present 2 times
+The l element is present 2 times
+The n element is present 1 times
+The s element is present 2 times
+The t element is present 1 times
+The v element is present 1 times

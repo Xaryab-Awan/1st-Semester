@@ -1,0 +1,12 @@
+<script>
+    let string=prompt("Enter a string");
+    let length=string.length;
+    console.log(`The length of the string is ${length}`);
+    console.log(`UpperCase : ${string.toUpperCase()}`);
+    console.log(`LowerCase : ${string.toLowerCase()}`);
+    let ReverseStr="";
+    for(let i=length-1;i>=0;i--){
+        ReverseStr+=string[i];
+    }
+    console.log(`The Reverse String is : ${ReverseStr}`);
+</script>

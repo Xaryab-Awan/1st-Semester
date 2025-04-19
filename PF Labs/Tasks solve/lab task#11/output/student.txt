@@ -1,0 +1,5 @@
+2551	arham	male	10	10	20	40
+3055	xaryab	male	12	12	45	69
+3074	saad	male	10	14	39	63
+3074	uzair	male	10	10	20	40
+3007	rafay	male	15	15	49	79

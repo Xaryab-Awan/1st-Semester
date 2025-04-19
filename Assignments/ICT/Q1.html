@@ -1,0 +1,19 @@
+<script>
+  let unit = Number(prompt("Select the temperature Unit\n(1) celsius\n(2) fahrenheit"));
+  let temp = Number(prompt("Enter the temperature"));
+  let temperature;
+  if (isNaN(temp)) {
+    console.log("Please enter a valid number for temperature.");
+  } 
+  else if (unit != 1 && unit != 2) {
+    console.log("The unit must be Celsius or Fahrenheit.");
+  } 
+  else if (unit == 1) {
+    temperature = (temp * 9) / 5 + 32;
+    console.log(`The Temperature in Fahrenheit is ${temperature.toFixed(2)}`);
+  } 
+  else if (unit == 2) {
+    temperature = ((temp - 32) * 5) / 9;
+    console.log(`The Temperature in Celsius is ${temperature.toFixed(2)}`);
+  }
+</script>

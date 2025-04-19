@@ -1,0 +1,6 @@
+mkdir Assignment2 
+cd Assignment2 
+mkdir SubfolderA SubfolderB 
+cd SubfolderA 
+echo This is a sample file. > example.txt 
+cd \ 
